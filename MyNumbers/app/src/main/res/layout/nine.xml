@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nine"
+    tools:context="com.example.android.mynumbers.Nine">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="30dp"
+        android:text="NINE"
+        android:textSize="40sp"
+        android:textColor="#E91E63"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold|italic"
+        android:onClick="PlaySound"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="380dp"
+        android:text="Back"
+        android:textSize="40sp"
+        android:textColor="#E91E63"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold|italic"
+        android:id="@+id/back"
+        android:background="#FFFF"
+        />
+
+</LinearLayout>
